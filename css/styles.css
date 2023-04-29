@@ -233,3 +233,16 @@ border-bottom: 1px solid #E7E9FC;
     color: #404bbf ;
  }
 
+ .contacts-address:hover,
+ .contacts-address:focus {
+    color: #404bbf ;
+ }
+.contacts-address {
+    font-style: normal;
+}
+
+.contact {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
