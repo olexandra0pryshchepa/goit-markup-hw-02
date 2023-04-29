@@ -223,6 +223,11 @@ border-bottom: 1px solid #E7E9FC;
     color: #404bbf ;
  }
 
+  .navigation-list:hover,
+ .navigation-list:focus {
+    color: #404bbf ;
+    }
+
  .contact:hover,
  .contact:focus {
     color: #404bbf ;
