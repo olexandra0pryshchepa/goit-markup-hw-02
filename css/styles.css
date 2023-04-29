@@ -14,8 +14,7 @@
 .page-logo,
 .header-contact,
 .navigation-list-item,
-.header-contact-email,
-.header-contact-tel,
+.contact,
 .site-nav-list,
 .projects {
   list-style: none;
@@ -27,8 +26,7 @@
 .header-contact,
 .navigation-list-item,
 .navigation-link,
-.header-contact-email,
-.header-contact-tel {
+.contact {
   text-decoration: none;
 }
 
@@ -45,9 +43,9 @@ button {
   color: #2e2f42;
 }
 
-.header-contact-email,
-.header-contact-tel {
+.contacts-adress {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -205,3 +203,28 @@ box-sizing: border-box;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
  }
+
+ body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+ }
+
+ .navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+ }
+
+ .navigation-list-item:hover,
+ .navigation-list-item:focus {
+    color: #404bbf ;
+ }
+
+ .contact:hover,
+ .contact:focus {
+    color: #404bbf ;
+ }
+
