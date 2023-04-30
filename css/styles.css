@@ -9,16 +9,10 @@
   --background-btn-filters: #f4f4fd;
 }
 
-.list,
-.navigation-list,
-.page-logo,
-.header-contact,
-.navigation-list-item,
-.contact,
-.site-nav-list,
-.projects {
-  list-style: none;
+.list{
+    list-style: none;
 }
+
 
 .link,
 .header-contact a,
@@ -61,7 +55,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #4D5AE5;
 
 }
 
@@ -73,7 +67,8 @@ color: #4d5ae5;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase ;
-  color: var(--primary-text-color)
+   
+   color: #2E2F42;
 }
 
 .hero {
@@ -152,12 +147,12 @@ color: #4d5ae5;
   color: var(--background-btn-filters);
 }
 .span-logo-footer {
- font-weight: 800;
+    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase ;
-   color: var(--background-btn-filters);
+   color: #f4f4fd;
 }
 .team-background-color {
   background: #f4f4fd;
